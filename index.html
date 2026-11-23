@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f5f4f0">
+    <meta name="description" content="A personal photography portfolio. A collection of moments, light, and places.">
+    <title>Field Notes — Photography</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="#" aria-label="Field Notes home">FIELD<span> / </span>NOTES</a>
+      <span class="header-note">A PHOTOGRAPHIC JOURNAL</span>
+    </header>
+
+    <main>
+      <section class="intro" aria-labelledby="page-title">
+        <p class="eyebrow">SELECTED WORK &nbsp;·&nbsp; 2024—26</p>
+        <h1 id="page-title">The art of <em>noticing.</em></h1>
+        <div class="intro-bottom">
+          <p class="intro-copy">A collection of moments, light, and places.<br>Seen along the way.</p>
+          <span class="photo-count"><span id="photo-count">09</span> PHOTOGRAPHS</span>
+        </div>
+      </section>
+
+      <section class="gallery-section" aria-label="Photography gallery">
+        <div class="gallery-toolbar">
+          <p class="toolbar-label">THE COLLECTION</p>
+          <div class="sort-controls" role="group" aria-label="Sort photos by filename">
+            <button class="sort-button is-active" type="button" data-order="asc" aria-pressed="true">Name A-Z</button>
+            <button class="sort-button" type="button" data-order="desc" aria-pressed="false">Name Z-A</button>
+          </div>
+        </div>
+        <div class="gallery" id="gallery" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>FIELD NOTES&nbsp; / &nbsp;PERSONAL PHOTOGRAPHY</span>
+      <span>MADE TO REMEMBER</span>
+    </footer>
+  </body>
+</html>
